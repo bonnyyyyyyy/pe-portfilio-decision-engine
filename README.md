@@ -11,7 +11,7 @@ Interactive, reproducible Streamlit application for 24-month portfolio exit and 
 Requirements: **Python 3.11+** and internet access for the initial dependency installation.
 
 ```bash
-git clone <your-github-repository-url>
+git clone <pe-portfilio-decision-engine>
 cd pe-portfolio-decision-engine
 python -m venv .venv
 
