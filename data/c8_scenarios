@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "name": "C8 Paired Scenarios",
+    "source": "Team PDF pp. 342-353, especially pp. 346-348 and 352",
+    "status": "Illustrative uncalibrated scenario and execution probabilities; distinct from C9"
+  },
+  "market_probabilities": {
+    "Adverse": 0.2,
+    "Base": 0.6,
+    "Favorable": 0.2
+  },
+  "execution_states": {
+    "Success": {
+      "ebitda_fraction": 1,
+      "multiple_fraction": 1
+    },
+    "Partial": {
+      "ebitda_fraction": 0.5,
+      "multiple_fraction": 0.5
+    },
+    "Failure": {
+      "ebitda_fraction": 0,
+      "multiple_fraction": 0
+    },
+    "Delay": {
+      "ebitda_fraction": 0.6,
+      "multiple_fraction": 0.25
+    }
+  },
+  "conditional_execution": {
+    "Adverse": {
+      "Success": 0.25,
+      "Partial": 0.3,
+      "Failure": 0.3,
+      "Delay": 0.15
+    },
+    "Base": {
+      "Success": 0.55,
+      "Partial": 0.25,
+      "Failure": 0.12,
+      "Delay": 0.08
+    },
+    "Favorable": {
+      "Success": 0.7,
+      "Partial": 0.18,
+      "Failure": 0.07,
+      "Delay": 0.05
+    }
+  },
+  "no_action": {
+    "Adverse": {
+      "E-commerce": {
+        "ebitda": 0,
+        "multiple": 3,
+        "debt": 50
+      },
+      "IT Engineering": {
+        "ebitda": 9.8,
+        "multiple": 3.5,
+        "debt": 0
+      },
+      "Security Hardware": {
+        "ebitda": 61.2,
+        "multiple": 5,
+        "debt": 15
+      }
+    },
+    "Base": {
+      "E-commerce": {
+        "ebitda": 5.3,
+        "multiple": 4,
+        "debt": 45
+      },
+      "IT Engineering": {
+        "ebitda": 15.5,
+        "multiple": 4,
+        "debt": 0
+      },
+      "Security Hardware": {
+        "ebitda": 86,
+        "multiple": 6,
+        "debt": 10
+      }
+    },
+    "Favorable": {
+      "E-commerce": {
+        "ebitda": 18,
+        "multiple": 4.5,
+        "debt": 40
+      },
+      "IT Engineering": {
+        "ebitda": 20.5,
+        "multiple": 5,
+        "debt": 0
+      },
+      "Security Hardware": {
+        "ebitda": 100,
+        "multiple": 7,
+        "debt": 10
+      }
+    }
+  },
+  "success": {
+    "IT Full": {
+      "Adverse": {
+        "ebitda": 21,
+        "multiple": 3.5
+      },
+      "Base": {
+        "ebitda": 25.5,
+        "multiple": 5.5
+      },
+      "Favorable": {
+        "ebitda": 30,
+        "multiple": 6
+      }
+    },
+    "Security Pilot": {
+      "Adverse": {
+        "ebitda": 61.2,
+        "multiple": 5.25
+      },
+      "Base": {
+        "ebitda": 86,
+        "multiple": 6.5
+      },
+      "Favorable": {
+        "ebitda": 100,
+        "multiple": 7.5
+      }
+    },
+    "Security Full": {
+      "Adverse": {
+        "ebitda": 61.2,
+        "multiple": 5.5
+      },
+      "Base": {
+        "ebitda": 86,
+        "multiple": 7
+      },
+      "Favorable": {
+        "ebitda": 100,
+        "multiple": 7.75
+      }
+    },
+    "E-commerce Full": {
+      "Adverse": {
+        "ebitda": 13,
+        "multiple": 3.5
+      },
+      "Base": {
+        "ebitda": 20.3,
+        "multiple": 5
+      },
+      "Favorable": {
+        "ebitda": 28,
+        "multiple": 5.5
+      }
+    },
+    "E-commerce Partial": {
+      "Adverse": {
+        "ebitda": 8,
+        "multiple": 3
+      },
+      "Base": {
+        "ebitda": 16,
+        "multiple": 4
+      },
+      "Favorable": {
+        "ebitda": 24,
+        "multiple": 5
+      }
+    }
+  }
+}
