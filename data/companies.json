@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "source": "Case Challenge 3.0 official company datapack summarized in team PDF pp. 7-12",
+    "units": "USD millions",
+    "status": "historical case facts; all exit valuations are analyst assumptions"
+  },
+  "companies": {
+    "E-commerce": {
+      "previous_revenue": 700,
+      "latest_revenue": 600,
+      "previous_ebitda": 35,
+      "latest_ebitda": 12,
+      "current_net_debt": 35,
+      "ownership": 0.3,
+      "funding_request": 10,
+      "operating_notes": "40% warehouse capacity lost; delivery time 2 to 5 days; liquidity request within 6 months"
+    },
+    "IT Engineering": {
+      "previous_revenue": 200,
+      "latest_revenue": 180,
+      "previous_ebitda": 36,
+      "latest_ebitda": 21.6,
+      "current_net_debt": 0,
+      "ownership": 0.3,
+      "funding_request": 8,
+      "operating_notes": "Utilization 85% to 70%; ~3,000 specialists; 12-18 months repositioning"
+    },
+    "Security Hardware": {
+      "previous_revenue": 250,
+      "latest_revenue": 325,
+      "previous_ebitda": 50,
+      "latest_ebitda": 65,
+      "current_net_debt": 10,
+      "ownership": 0.2,
+      "funding_request": 15,
+      "operating_notes": "95% international sales; 75% manufacturing in Ukraine; 12-18 months international expansion"
+    }
+  }
+}

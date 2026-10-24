@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "name": "C9 Transaction-Date Base",
+    "source": "Team PDF pp. 371-376; corrected C9 analyst assumptions",
+    "forecast_status": "Unverified analyst sensitivities, not official historical facts",
+    "it_older_m24_ebitda_for_comparison": 25.5,
+    "exit_revenue_note": "Forecast revenue not provided in C9. Exit revenue fields are initialized to observed latest revenue as editable placeholders only; Direct EBITDA mode is selected by default and does not use revenue."
+  },
+  "budget": 15,
+  "no_action": {
+    "E-commerce": {
+      "ebitda": 5.3,
+      "multiple": 4,
+      "debt": 45,
+      "exit_revenue": 600
+    },
+    "IT Engineering": {
+      "ebitda": 15.5,
+      "multiple": 4,
+      "debt": 0,
+      "exit_revenue": 180
+    },
+    "Security Hardware": {
+      "ebitda": 86,
+      "multiple": 6,
+      "debt": 10,
+      "exit_revenue": 325
+    }
+  },
+  "programmes": {
+    "IT Full": {
+      "company": "IT Engineering",
+      "total_cost": 8,
+      "funded_ebitda": 24,
+      "funded_multiple": 5.5,
+      "intensive": true,
+      "funded_debt_change": 0.0
+    },
+    "Security Pilot": {
+      "company": "Security Hardware",
+      "total_cost": 4,
+      "funded_ebitda": 86,
+      "funded_multiple": 6.5,
+      "intensive": false,
+      "funded_debt_change": 0.0
+    },
+    "Security Full": {
+      "company": "Security Hardware",
+      "total_cost": 15,
+      "funded_ebitda": 86,
+      "funded_multiple": 7,
+      "intensive": true,
+      "funded_debt_change": 0.0
+    },
+    "E-commerce Full": {
+      "company": "E-commerce",
+      "total_cost": 10,
+      "funded_ebitda": 20.3,
+      "funded_multiple": 5,
+      "intensive": true,
+      "funded_debt_change": 0.0
+    },
+    "E-commerce Partial": {
+      "company": "E-commerce",
+      "total_cost": 3,
+      "funded_ebitda": 16,
+      "funded_multiple": 4,
+      "intensive": false,
+      "funded_debt_change": 0.0
+    }
+  }
+}
